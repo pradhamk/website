@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
@@ -22,9 +23,9 @@ export default function Navbar() {
     return (
         <div className="w-full flex items-center justify-between px-10 sm:px-20 pt-8">
             <div className="space-x-2">
-                <a href="/">
+                <Link href={"/"}>
                     <span className="font-extrabold tracking-widest text-xl">PK.</span>
-                </a>
+                </Link>
                 <span className="opacity-65 text-sm">{time}</span>
             </div>
             <a href="#" className="relative text-gray-400 cursor-not-allowed group">
