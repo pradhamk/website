@@ -5,8 +5,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 export default function Home() {
   return (
     <div className="font-sans flex flex-col items-center justify-items-center min-h-screen pb-24">
-      <div className="fixed inset-0 w-full h-full pointer-events-none -z-10 [background-image:linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] [background-size:50px_50px]"></div>
-      
+<div className="fixed inset-0 w-full h-full pointer-events-none -z-10 [background-image:linear-gradient(rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.1)_1px,transparent_1px)] [background-size:50px_50px]"></div>      
       <Navbar />
 
       <div className="flex flex-col pt-24 items-center justify-center mb-10">
